@@ -1,0 +1,45 @@
+body {
+    direction: rtl;
+    font-family: Vazir, Georgia;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+form,
+input,
+input[type="submit"] {
+    font: 400 1rem Vazir;
+    letter-spacing: 0rem;
+}
+
+form.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+form .form-row {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+pre {
+    direction: ltr;
+    white-space: pre-wrap;
+    background: #ddd;
+}
+
+code {
+    background: #ddd;
+}
+
+.success {
+    color: #05a305;
+}
+
+.error {
+    color: #b90808;
+}
